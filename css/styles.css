@@ -1,0 +1,140 @@
+/****************************************************TAG SELECTORS****************************************************************************/
+body {
+	margin: 0;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+}
+
+h1 {
+	color: #66BFBF;
+	font-size: 70px;
+	margin: 10px auto 0 auto;
+	font-family: 'Sacramento', cursive;
+}
+
+h2 {
+	color: #66BFBF;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2.5rem;
+    padding-bottom: 10px;
+    font-weight: bold;	
+}
+
+h3 {
+	color: #11999E;	
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5rem;
+    font-weight: bold;
+}
+
+a {
+	color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+p {
+	font-weight: bold;
+    line-height: 2;
+}
+
+hr {
+    border: dotted #dddddd 6px;
+    border-bottom: none;
+    width: 3%;
+    margin: 100px auto;
+}
+/***************************************************CLASS SELECTORS**************************************************************************/
+.top-container {
+	background-color:#fefcea;
+	position: relative;
+	padding-top: 100px;
+}
+
+.middle-container {
+    margin: 50px 0;
+}
+
+.top-cloud {
+	position: absolute;
+	right:300px;
+	top: 40px;
+}
+
+.bottom-cloud {
+	position: absolute;
+	left: 250px;
+	bottom: 300px;
+}
+
+.bottom-container {
+	background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+.mypic {
+	height: 10%;
+	width: 10%;
+}
+
+.intro {
+    width: 40%;
+    margin: auto;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.80rem;
+    padding: 15px 0;
+}
+
+.contact {
+    width: 20%;
+    margin: 35px auto 35px auto;
+}
+
+.front-end {
+	height: 30%;
+	width: 30%;
+	border-radius: 100%;
+	float: left;
+	margin-right: 30px;
+}
+
+.android {
+	height: 170px;
+	width: 200px;
+    float: right; 
+}
+
+.skill-row {
+	width: 55%;
+	margin: 50px auto 50px auto;
+	text-align: left;
+}
+
+.btn {
+    background-color: #66BFBF;
+    border-radius: 10px;
+    font-weight: 100;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    text-shadow: 1px 1px 20px #000000;
+    box-shadow: 1px 1px 20px 0px #FFFFFF;
+    border: solid #1F628D 2px;
+    background: #11CDD4;
+} 
+
+.btn:hover {
+    border: solid #337FED 1px;
+    background: #30E3CB;
+    background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+    border-radius: 20px;
+}
