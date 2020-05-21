@@ -91,11 +91,13 @@ hr {
     color: #EAF6F6;
     font-size: 0.70rem;
     padding: 15px 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .contact {
     width: 20%;
     margin: 35px auto 35px auto;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .front-end {
